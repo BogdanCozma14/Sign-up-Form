@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image">
+        <img src="sideImage.jpg" class="sideImage" alt="image for the background">
+    </div>
+    <div class="formPart">
+        <div class="textPart">
+            <h2>This is not real online service! You know you need something like this in your life to help
+                you realize your deepest dreams. Sign up now to get started.
+            </h2>
+            <h2>You know you want to.</h2>
+        </div>
+            <form action="nothing" method="post">
+                <div class="main-content">
+                    <legend>Let's do this!</legend>
+                    <div class="row">
+                        <div class="labelPart">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="fist_name" required>
+                        </div>
+                        <div class="labelPart">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="last_name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labelPart">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+                        </div>
+                        <div class="labelPart">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="text" id="phoneNumber" name="phone_number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labelPart">
+                            <label for="password">PASSWORD</label>
+                            <input type="text" id="password" name="password">
+                        </div>
+                        <div class="labelPart">
+                            <label for="passwordConfirmation">CONFIRM PASSWORD</label>
+                            <input type="text" id="passwordConfirmation" name="password_confirmation">
+                        </div>
+                    </div>
+                </div>
+                <button class="submit" type="submit">Create Account</button>
+                <p class="logIn">Already have an account? <span>Log in</span></p>
+            </form>
+        </div>
+    
+</body>
+</html>
