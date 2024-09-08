@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="logo-section">
+        <img src="odin-logo.png" alt="Logo of the odin project" class="logo-image">
+        <h1 class="logo-header">ODIN</h1>
+    </div>
+    <p class="credits">Photo by <span>Mark Duffel</span> on <span>Unsplash</span></p>
     <div class="background-image">
         <img src="sideImage.jpg" class="sideImage" alt="image for the background">
     </div>
@@ -43,11 +48,11 @@
                     <div class="row">
                         <div class="labelPart">
                             <label for="password">PASSWORD</label>
-                            <input type="text" id="password" name="password">
+                            <input type="password" min="4" max="15" id="password" name="password" required> 
                         </div>
                         <div class="labelPart">
                             <label for="passwordConfirmation">CONFIRM PASSWORD</label>
-                            <input type="text" id="passwordConfirmation" name="password_confirmation">
+                            <input type="password" min="4" max="15" id="passwordConfirmation" name="password_confirmation" required>
                         </div>
                     </div>
                 </div>
